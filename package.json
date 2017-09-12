@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/simplon-lyon/promo3-preprocesseur-client#readme",
   "devDependencies": {
+    "@types/jquery": "^3.2.12",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
