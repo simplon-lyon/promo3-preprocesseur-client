@@ -1,0 +1,25 @@
+{
+  "name": "promo3-preprocesseur-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplon-lyon/promo3-preprocesseur-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplon-lyon/promo3-preprocesseur-client/issues"
+  },
+  "homepage": "https://github.com/simplon-lyon/promo3-preprocesseur-client#readme",
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6"
+  }
+}
