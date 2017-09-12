@@ -1,10 +1,10 @@
 import {Compteur} from './compteur';
 
 const compteur = new Compteur();
+const para = document.querySelector('#para');
 
-compteur.increment();
-compteur.increment();
-compteur.increment();
-
-console.log(compteur.showCount());
-
+document.querySelector('#increment')
+.addEventListener('click', (event)=> {
+    compteur.increment();
+    para.textContent = compteur.showCount().toString();
+});
