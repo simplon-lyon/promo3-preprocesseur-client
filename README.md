@@ -15,3 +15,4 @@ fonctionnalités classiques :
 a. Lister les todos
 b. Ajouter un todo
 c. Supprimer un todo
+7) Rajouter un entry point dans le webpack.config.js pour le todo.ts
