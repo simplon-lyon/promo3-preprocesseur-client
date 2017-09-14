@@ -15,7 +15,8 @@ const todoAjax = new TodoAjax();
 todoAjax.getAllTodos().then(function(response) {
     console.log(response);
     let todo = $('#todo');
-    // TODO: créer une boucle for qui ajoute un li pour chaque élément de response.
-    let li = $('<li>bloup</li>');
-    todo.append(li);
+    for (let str of response) {
+        let li = $('<li>'+str+'</li>');
+        todo.append(li);
+    }
 });
